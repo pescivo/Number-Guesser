@@ -5,23 +5,13 @@ let currentRoundNumber = 1;
 // Write your code below:
 
 const generateTarget = () => {
-  const secretNumber = Math.floor(Math.random() * 10);
+  return Math.floor(Math.random() * 10);
 }
 
 const compareGuesses = (humanGuess, computerGuess, secretNumber) => {
    let humanDiff = Math.abs(secretNumber - humanGuess);
    let computerDiff = Math.abs(secretNumber - computerGuess);
-
-   if (humanDiff === computerDiff) {
-     return 'Human wins!'
-     return true
-   } else if (humanDiff < computerDiff){
-     return 'Human wins!'
-     return true
-   } else {
-     return 'Computer wins!'
-     return false
-   }
+   return humanDifference <= computerDifference;
 }
 
 const updateScore = winner => {
