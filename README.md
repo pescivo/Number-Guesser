@@ -1,4 +1,4 @@
-# Number-Guesser-Game
+# number-guesser-Game
 
 Here is a summary of how this code works in practice:
 
@@ -13,3 +13,7 @@ The updateScore function takes a parameter winner, which indicates which player 
 The advanceRound function is responsible for advancing to the next round. It increments the value of the currentRoundNumber variable by 1.
 
 These functions can be used together to simulate multiple rounds of the game. In each round, the players make their guesses, the compareGuesses function determines the winner, the updateScore function updates the scores, and the advanceRound function moves to the next round.
+
+
+![image](https://github.com/pescivo/Number-Guesser/assets/87651996/38eca07a-60ec-48d8-81e6-590b06db62bf)
+
