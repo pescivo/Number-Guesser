@@ -1,4 +1,4 @@
-# number-guesser-Game
+# NumberGuesser
 
 Here is a summary of how this code works in practice:
 
